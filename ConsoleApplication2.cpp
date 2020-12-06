@@ -6,10 +6,10 @@
 using namespace std;
 int main()
 {
-	int a;
+	int b;
 	cout << "Enter А" << endl;
-	cin >> a;
-	(a >= 0 && a % 3 == 0) ? cout << "true" << endl : cout << "false" << endl;
+	cin >> b;
+	(b >= 0 && b % 4 == 0) ? cout << "true" << endl : cout << "false" << endl;
 	system("pause");
 	return 0;
 }
