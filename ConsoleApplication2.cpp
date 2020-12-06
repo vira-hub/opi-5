@@ -9,7 +9,7 @@ int main()
 	int a;
 	cout << "Enter А" << endl;
 	cin >> a;
-	(a >= 0 && a % 2 == 0) ? cout << "true" << endl : cout << "false" << endl;
+	(a >= 0 && a % 3 == 0) ? cout << "true" << endl : cout << "false" << endl;
 	system("pause");
 	return 0;
 }
