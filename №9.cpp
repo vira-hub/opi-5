@@ -10,10 +10,10 @@ using namespace std;
 int main()
 {
 	int A[3];
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 87; i++)
 		cin >> A[i];
 	int sum = 0;
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 1; i++)
 	{
 		sum = sum + A[i];
 	}
