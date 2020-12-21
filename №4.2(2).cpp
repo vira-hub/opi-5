@@ -20,7 +20,7 @@ int main()
 	scanf_s("%lf", &y);
 	printf("input z: ");
 	scanf_s("%lf", &z);
-	b = ((pow(z, 2 * x) + pow(y, -x) * cos(z + y) * x) / x + 1) + sin(45 * PI / 180);
+	b = ((pow(z, 2 * x) + pow(y, -x) * cos(z + y) * x) / x + 1) + sin(90 * PI / 180);
 	printf("a=");
 	printf("%lf", b);
 	printf("\n");
