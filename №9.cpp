@@ -15,7 +15,7 @@ int main()
 	int sum = 0;
 	for (int i = 0; i < 3; i++)
 	{
-		sum = sum + A[i];
+		
 	}
 	cout << sum << endl;
 
